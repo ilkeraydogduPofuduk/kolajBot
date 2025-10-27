@@ -1,0 +1,108 @@
+{
+  "config": {
+    "name": "AI Facebook Template 1",
+    "description": "AI-generated facebook template with dual layout",
+    "template_type": "social_media",
+    "platform": "facebook",
+    "width": 1200,
+    "height": 630,
+    "background_color": [
+      25,
+      25,
+      25
+    ],
+    "text_color": [
+      255,
+      255,
+      255
+    ],
+    "accent_color": [
+      24,
+      119,
+      242
+    ],
+    "font_size": 46,
+    "layout_type": "dual",
+    "elements": [
+      {
+        "type": "image",
+        "id": "left_image",
+        "x": 150,
+        "y": 157,
+        "width": 400,
+        "height": 315,
+        "properties": {
+          "border_radius": 10,
+          "shadow": true
+        }
+      },
+      {
+        "type": "image",
+        "id": "right_image",
+        "x": 750,
+        "y": 157,
+        "width": 400,
+        "height": 315,
+        "properties": {
+          "border_radius": 10,
+          "shadow": true
+        }
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "x": 600,
+        "y": 492,
+        "text": "Ürün Koleksiyonu",
+        "properties": {
+          "font_size": 28,
+          "font_weight": "bold",
+          "text_align": "center"
+        }
+      }
+    ]
+  },
+  "elements": [
+    {
+      "type": "image",
+      "id": "left_image",
+      "x": 150,
+      "y": 157,
+      "width": 400,
+      "height": 315,
+      "properties": {
+        "border_radius": 10,
+        "shadow": true
+      }
+    },
+    {
+      "type": "image",
+      "id": "right_image",
+      "x": 750,
+      "y": 157,
+      "width": 400,
+      "height": 315,
+      "properties": {
+        "border_radius": 10,
+        "shadow": true
+      }
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "x": 600,
+      "y": 492,
+      "text": "Ürün Koleksiyonu",
+      "properties": {
+        "font_size": 28,
+        "font_weight": "bold",
+        "text_align": "center"
+      }
+    }
+  ],
+  "metadata": {
+    "generated_by": "ai",
+    "generation_time": "2025-10-25T21:26:14.956804",
+    "version": "1.0"
+  }
+}

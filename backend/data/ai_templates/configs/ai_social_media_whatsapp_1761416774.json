@@ -1,0 +1,100 @@
+{
+  "config": {
+    "name": "WhatsApp Status Format Template 3",
+    "description": "WhatsApp single template with status_format and strikethrough styling",
+    "template_type": "social_media",
+    "platform": "whatsapp",
+    "width": 1080,
+    "height": 1080,
+    "background_color": [
+      25,
+      25,
+      25
+    ],
+    "text_color": [
+      255,
+      255,
+      255
+    ],
+    "accent_color": [
+      37,
+      211,
+      102
+    ],
+    "font_size": 31,
+    "layout_type": "single",
+    "elements": [
+      {
+        "type": "image",
+        "id": "status_image",
+        "x": 135,
+        "y": 135,
+        "width": 810,
+        "height": 810,
+        "properties": {
+          "border_radius": 20,
+          "shadow": true,
+          "whatsapp_status": true
+        }
+      },
+      {
+        "type": "text",
+        "id": "status_text",
+        "x": 540,
+        "y": 965,
+        "text": "WhatsApp Status",
+        "properties": {
+          "font_size": 28,
+          "font_weight": "bold",
+          "text_align": "center",
+          "whatsapp_green": true
+        }
+      }
+    ],
+    "metadata": {
+      "special_feature": "status_format",
+      "text_style": "strikethrough",
+      "element": "location",
+      "whatsapp_version": "2.0",
+      "features": [
+        "status_format",
+        "message_bubble",
+        "contact_card",
+        "business_card"
+      ]
+    }
+  },
+  "elements": [
+    {
+      "type": "image",
+      "id": "status_image",
+      "x": 135,
+      "y": 135,
+      "width": 810,
+      "height": 810,
+      "properties": {
+        "border_radius": 20,
+        "shadow": true,
+        "whatsapp_status": true
+      }
+    },
+    {
+      "type": "text",
+      "id": "status_text",
+      "x": 540,
+      "y": 965,
+      "text": "WhatsApp Status",
+      "properties": {
+        "font_size": 28,
+        "font_weight": "bold",
+        "text_align": "center",
+        "whatsapp_green": true
+      }
+    }
+  ],
+  "metadata": {
+    "generated_by": "ai",
+    "generation_time": "2025-10-25T21:26:14.993283",
+    "version": "2.0"
+  }
+}

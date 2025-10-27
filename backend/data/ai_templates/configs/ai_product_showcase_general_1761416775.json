@@ -1,0 +1,108 @@
+{
+  "config": {
+    "name": "AI Product Showcase Template 2",
+    "description": "AI-generated showcase template for product showcase",
+    "template_type": "product_showcase",
+    "platform": "general",
+    "width": 1080,
+    "height": 1080,
+    "background_color": [
+      25,
+      25,
+      25
+    ],
+    "text_color": [
+      255,
+      255,
+      255
+    ],
+    "accent_color": [
+      200,
+      200,
+      200
+    ],
+    "font_size": 37,
+    "layout_type": "dual",
+    "elements": [
+      {
+        "type": "image",
+        "id": "left_image",
+        "x": 135,
+        "y": 270,
+        "width": 360,
+        "height": 540,
+        "properties": {
+          "border_radius": 10,
+          "shadow": true
+        }
+      },
+      {
+        "type": "image",
+        "id": "right_image",
+        "x": 675,
+        "y": 270,
+        "width": 360,
+        "height": 540,
+        "properties": {
+          "border_radius": 10,
+          "shadow": true
+        }
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "x": 540,
+        "y": 830,
+        "text": "Ürün Koleksiyonu",
+        "properties": {
+          "font_size": 28,
+          "font_weight": "bold",
+          "text_align": "center"
+        }
+      }
+    ]
+  },
+  "elements": [
+    {
+      "type": "image",
+      "id": "left_image",
+      "x": 135,
+      "y": 270,
+      "width": 360,
+      "height": 540,
+      "properties": {
+        "border_radius": 10,
+        "shadow": true
+      }
+    },
+    {
+      "type": "image",
+      "id": "right_image",
+      "x": 675,
+      "y": 270,
+      "width": 360,
+      "height": 540,
+      "properties": {
+        "border_radius": 10,
+        "shadow": true
+      }
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "x": 540,
+      "y": 830,
+      "text": "Ürün Koleksiyonu",
+      "properties": {
+        "font_size": 28,
+        "font_weight": "bold",
+        "text_align": "center"
+      }
+    }
+  ],
+  "metadata": {
+    "generated_by": "ai",
+    "generation_time": "2025-10-25T21:26:15.075110",
+    "version": "1.0"
+  }
+}

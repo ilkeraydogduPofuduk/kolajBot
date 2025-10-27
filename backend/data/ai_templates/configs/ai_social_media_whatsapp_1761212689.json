@@ -1,0 +1,98 @@
+{
+  "config": {
+    "name": "WhatsApp Message Bubble Template 3",
+    "description": "WhatsApp single template with message_bubble and italic styling",
+    "template_type": "social_media",
+    "platform": "whatsapp",
+    "width": 1080,
+    "height": 1080,
+    "background_color": [
+      25,
+      25,
+      25
+    ],
+    "text_color": [
+      255,
+      255,
+      255
+    ],
+    "accent_color": [
+      37,
+      211,
+      102
+    ],
+    "font_size": 34,
+    "layout_type": "single",
+    "elements": [
+      {
+        "type": "shape",
+        "id": "message_bubble",
+        "x": 270,
+        "y": 360,
+        "width": 540,
+        "height": 360,
+        "properties": {
+          "shape": "bubble",
+          "whatsapp_bubble": true,
+          "corner_radius": 15
+        }
+      },
+      {
+        "type": "text",
+        "id": "message_text",
+        "x": 540,
+        "y": 540,
+        "text": "Mesajınız",
+        "properties": {
+          "font_size": 24,
+          "text_align": "center",
+          "inside_bubble": true
+        }
+      }
+    ],
+    "metadata": {
+      "special_feature": "message_bubble",
+      "text_style": "italic",
+      "element": "contact_info",
+      "whatsapp_version": "2.0",
+      "features": [
+        "status_format",
+        "message_bubble",
+        "contact_card",
+        "business_card"
+      ]
+    }
+  },
+  "elements": [
+    {
+      "type": "shape",
+      "id": "message_bubble",
+      "x": 270,
+      "y": 360,
+      "width": 540,
+      "height": 360,
+      "properties": {
+        "shape": "bubble",
+        "whatsapp_bubble": true,
+        "corner_radius": 15
+      }
+    },
+    {
+      "type": "text",
+      "id": "message_text",
+      "x": 540,
+      "y": 540,
+      "text": "Mesajınız",
+      "properties": {
+        "font_size": 24,
+        "text_align": "center",
+        "inside_bubble": true
+      }
+    }
+  ],
+  "metadata": {
+    "generated_by": "ai",
+    "generation_time": "2025-10-23T12:44:49.923556",
+    "version": "2.0"
+  }
+}

@@ -1,0 +1,16 @@
+Yapılacak revizeler:
+
+1. İlk olarak ürün yükleme kısmı CDN ile bunnuy üzerinden yapacağız.
+2. klasörleme yapımız dinamşk ve marka çalışan bazlı olacak. 
+3. daha sonra yüklenen ürünleri web sayfasında tarihlerege görwe gruplayacağız daha sonra diğer gruplama yapacağız.
+yani aslında cdn üzerinde de şu şekilde olacak /marka/görseli yükleyen kişi/ yükleme tarihi(22.10.2025 gibi)/ ürün adı/varsa ürün renklerine göre klasör açıp oraya görselleri atacağız. aynı zamanda otomatik kolajlarda  üüne ait klasörde olacak.
+
+
+3. otomotik kolajlı olarak gelen ürünlerin kolajına tıklayıp düzenleme yapılabilecek
+4. kolaj ekle keni kolaj şablonunu oluştup istediği markanın bundan sonra bu yapıyı kullan diyebilecek.
+5. telegram kanalı siteye eklmek yerine bizim botumuzu kanllarına davet edecekler. (bot için kanala davet linki alınacak.)
+ürün yükledikten sonra oluşan otomatik koljlar için planlı otomatik ve manuel gönderim seçenekleri olacak.
+6.  kullanıcı aynı ürünü yüklemeye izin verilmeyecek.
+,r,n yükleme sayfasına görselleri sürükle bırak eklenecek.
+7.  projeye whatspp grupları dahil edilecek telgram matıpında.
+
