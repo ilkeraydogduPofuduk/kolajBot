@@ -1,0 +1,96 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+combined.log
+error.log
+exceptions.log
+rejections.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Uploads
+uploads/
+temp/
+tmp/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Misc
+.cache/
+.tmp/
+*.bak
+*.backup
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Python (legacy backend)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Secrets
+*.key
+*.pem
+*.crt
+*.cer
+encryption.key
+
+# Old backend directories (if migrating)
+backend/
+backend_mvc/
+frontend/build/
+pfdk_ai.sql
+revizeplani.txt
