@@ -7,13 +7,14 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
+    "db:create": "node src/database/create-db.js",
     "db:migrate": "node src/database/migrate.js up",
     "db:migrate:down": "node src/database/migrate.js down",
     "db:migrate:reset": "node src/database/migrate.js reset",
     "db:migrate:fresh": "node src/database/migrate.js fresh",
     "db:migrate:status": "node src/database/migrate.js status",
     "db:seed": "node src/database/seed.js",
-    "db:setup": "npm run db:migrate && npm run db:seed",
+    "db:setup": "npm run db:create && npm run db:migrate && npm run db:seed",
     "test": "jest --coverage",
     "lint": "eslint src/**/*.js",
     "format": "prettier --write src/**/*.js"
