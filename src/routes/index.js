@@ -10,6 +10,8 @@ import userRoutes from './user.routes.js';
 import brandRoutes from './brand.routes.js';
 import productRoutes from './product.routes.js';
 import categoryRoutes from './category.routes.js';
+import templateRoutes from './template.routes.js';
+import uploadRoutes from './upload.routes.js';
 
 const router = express.Router();
 
@@ -30,6 +32,8 @@ router.use('/users', userRoutes);
 router.use('/brands', brandRoutes);
 router.use('/products', productRoutes);
 router.use('/categories', categoryRoutes);
+router.use('/templates', templateRoutes);
+router.use('/uploads', uploadRoutes);
 
 // API info endpoint
 router.get('/', (req, res) => {
